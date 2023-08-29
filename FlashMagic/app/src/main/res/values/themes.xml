@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FlashMagic" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+    <style name="Theme.FlashMagic" parent="Base.Theme.FlashMagic" />
+    <style name="NoRippleToggleButton" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:background">@null</item>
+    </style>
+</resources>
